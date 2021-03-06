@@ -3,7 +3,7 @@ ___
 ## E-mail: dfyreybr@gmail.com
 ## +375 (29) 513-23-02
 ### Links to social networks: [VK](https://vk.com/ivan.kuleshov19) [Git](https://github.com/Krivetka)
->Measuring programming progress by lines of code is like measuring aircraft building progress by weight.
+>Measuring the productivity of a programmer by counting lines of code is the same as evaluating the construction of an airplane by its weight.
 #### Strengths:
 * Creative abilities
 * Logical thinking
@@ -52,11 +52,11 @@ ___
              });
          }
 ```
-##### Completed the QA engineer course. I was a participant of the HTP project school. I have mastered the course "Fundamentals of algorithmization and programming", "Fundamentals of databases and information Security".
+##### Passed the QA engineer course. He was a participant in the project school from HTP. He has mastered the course fundamentals of algorithmization and programming, fundamentals of databases and information security.
 ##### Education:
-* MSRL (2017-2019)
-* BSUIR (2019-2023)
+* MSRL 2017-2019
+* BSUIR 2019-2023
 ##### languages:
 1. ##### Russian - native
-2. ##### English - A2 
-3. ##### Polish - A1
+2. ##### English - A2+ 
+3. ##### Polish - A1+ 
