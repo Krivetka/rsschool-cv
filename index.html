@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="icon/1.jpg" alt="foto">
+        <div id="name">
+            <h1>Ivan Kuliashov</h1>
+            <h3>Frontend developer</h3>
+        </div>
+        <hr>
+    </header>
+    <aside>
+        <div>
+        <h3>Contact:</h3>
+            <hr>
+        <ul>
+            <li>dfyreybr@gmail.com</li>
+            <li>+375 (29) 513-23-02</li>
+        </ul>
+        </div>
+        <div>
+            <h3>I know :</h3>
+            <hr>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SQL</li>
+                <li>С++</li>
+                <li>Python</li>
+            </ul>
+        </div>
+        <div>
+
+            <h3>Used in projects :</h3>
+            <hr>
+            <ul>
+                <li>Bootstrap</li>
+                <li>Yii</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Education:</h3>
+            <hr>
+            <ul>
+                <li>MSRL (2017-2019)</li>
+                <li>BSUIR (2019-2023)</li>
+            </ul>
+        </div>
+        <div>
+        <h3>Languages:</h3>
+            <hr>
+        <ul>
+            <li>Russian - native</li>
+            <li>English - A2</li>
+            <li>Polish - A1</li>
+        </ul>
+        </div>
+    </aside>
+     <article>
+         <h2>My motto:</h2>
+         <p id="quote">Measuring programming progress by lines of code is like measuring aircraft building progress by weight.</p>
+         <p>I am a young specialist in IT. I have a constructive mindset, always ready to learn.</p>
+         <p><b>Strengths:</b></p>
+         <ul>
+             <li>Creative abilities</li>
+             <li>Logical thinking</li>
+             <li>Industriousness</li>
+             <li>Responsibility</li>
+             <li>A quick learner</li>
+         </ul>
+         <p>Completed the QA engineer course. I was a participant of the HTP project school. I have mastered the course "Fundamentals of algorithmization and programming", "Fundamentals of databases and information Security".</p>
+         <p><b>C++:</b></p>
+         <figure>
+<pre class="hljs" style="color: rgb(169, 183, 198); background: rgb(40, 43, 46); display: block; overflow-x: auto; padding: 0.5em;"><span class="hljs-meta" style="color: rgb(187, 181, 41);">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;iostream&gt;</span></span>
+<span class="hljs-meta" style="color: rgb(187, 181, 41);">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;string&gt;</span></span>
+<span class="hljs-keyword" style="color: rgb(204, 120, 50);">using</span> <span class="hljs-keyword" style="color: rgb(204, 120, 50);">namespace</span> <span class="hljs-built_in">std</span>;
+
+<span class="hljs-function"><span class="hljs-keyword" style="color: rgb(204, 120, 50);">int</span> <span class="hljs-title" style="color: rgb(255, 198, 109);">main</span><span class="hljs-params">()</span>
+</span>{
+	<span class="hljs-keyword" style="color: rgb(204, 120, 50);">int</span> n,m,z;
+	<span class="hljs-keyword" style="color: rgb(204, 120, 50);">int</span> i = <span class="hljs-number" style="color: rgb(104, 151, 187);">0</span>, j = <span class="hljs-number" style="color: rgb(104, 151, 187);">0</span>;
+	<span class="hljs-keyword" style="color: rgb(204, 120, 50);">int</span> a[<span class="hljs-number" style="color: rgb(104, 151, 187);">10</span>];
+	<span class="hljs-built_in">cin</span> &gt;&gt; n &gt;&gt; m;
+	<span class="hljs-keyword" style="color: rgb(204, 120, 50);">for</span> (<span class="hljs-keyword" style="color: rgb(204, 120, 50);">int</span> y = <span class="hljs-number" style="color: rgb(104, 151, 187);">0</span>; y &lt; <span class="hljs-number" style="color: rgb(104, 151, 187);">10</span>; y++) {
+		<span class="hljs-keyword" style="color: rgb(204, 120, 50);">for</span> (i = <span class="hljs-number" style="color: rgb(104, 151, 187);">1</span>; i &lt;= n; i++) {
+			<span class="hljs-keyword" style="color: rgb(204, 120, 50);">for</span> (j = <span class="hljs-number" style="color: rgb(104, 151, 187);">1</span>; j &lt;= m; j++) {
+				a[y] = i * j;
+			}
+		}
+	}
+	<span class="hljs-keyword" style="color: rgb(204, 120, 50);">for</span>(<span class="hljs-keyword" style="color: rgb(204, 120, 50);">int</span> y = <span class="hljs-number" style="color: rgb(104, 151, 187);">0</span>; y &lt; <span class="hljs-number" style="color: rgb(104, 151, 187);">10</span>; ++y) {
+		<span class="hljs-built_in">cout</span> &lt;&lt; a[y] &lt;&lt; <span class="hljs-string" style="color: rgb(106, 135, 89);">" "</span>;
+	}
+	<span class="hljs-built_in">cout</span> &lt;&lt; a[<span class="hljs-number" style="color: rgb(104, 151, 187);">1</span>] &lt;&lt; <span class="hljs-string" style="color: rgb(106, 135, 89);">" "</span>;
+	<span class="hljs-built_in">cout</span> &lt;&lt; a[<span class="hljs-number" style="color: rgb(104, 151, 187);">2</span>] &lt;&lt; <span class="hljs-string" style="color: rgb(106, 135, 89);">" "</span>;
+	<span class="hljs-keyword" style="color: rgb(204, 120, 50);">return</span> <span class="hljs-number" style="color: rgb(104, 151, 187);">0</span>;
+} </pre>
+         </figure>
+         <p><b>JS:</b></p>
+         <figure>
+               <pre class="hljs" style="color: rgb(169, 183, 198); background: rgb(40, 43, 46); display: block; overflow-x: auto; padding: 0.5em;"><span class="hljs-function"><span class="hljs-keyword" style="color: rgb(204, 120, 50);">function</span> <span class="hljs-title" style="color: rgb(255, 198, 109);">toReadable</span> (<span class="hljs-params"><span class="hljs-built_in">number</span></span>) </span>{
+        arr_0_9 = [<span class="hljs-string" style="color: rgb(106, 135, 89);">'zero'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'one'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'two'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'three'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'four'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'five'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'six'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'seven'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'eight'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'nine'</span>];
+        arr_10_19 = [<span class="hljs-string" style="color: rgb(106, 135, 89);">'ten'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'eleven'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'twelve'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'thirteen'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'fourteen'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'fifteen'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'sixteen'</span>,
+    <span class="hljs-string" style="color: rgb(106, 135, 89);">'seventeen'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'eighteen'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'nineteen'</span>];
+        arr_20_90 = [<span class="hljs-string" style="color: rgb(106, 135, 89);">'twenty'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'thirty'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'forty'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'fifty'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'sixty'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'seventy'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'eighty'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">'ninety'</span>];
+        arr_pow_10 = [<span class="hljs-string" style="color: rgb(106, 135, 89);">'hundred'</span>, <span class="hljs-string" style="color: rgb(106, 135, 89);">' thousand'</span>];
+        str=<span class="hljs-string" style="color: rgb(106, 135, 89);">''</span>;
+        <span class="hljs-keyword" style="color: rgb(204, 120, 50);">if</span>(<span class="hljs-built_in">number</span> == <span class="hljs-number" style="color: rgb(104, 151, 187);">0</span>){
+            str = arr_0_9[<span class="hljs-number" style="color: rgb(104, 151, 187);">0</span>];
+        }
+        <span class="hljs-keyword" style="color: rgb(204, 120, 50);">while</span> (<span class="hljs-built_in">number</span>&gt;<span class="hljs-number" style="color: rgb(104, 151, 187);">0</span>){
+            <span class="hljs-keyword" style="color: rgb(204, 120, 50);">if</span>(<span class="hljs-built_in">number</span>&gt;=<span class="hljs-number" style="color: rgb(104, 151, 187);">1</span> &amp;&amp; <span class="hljs-built_in">number</span>&lt;<span class="hljs-number" style="color: rgb(104, 151, 187);">10</span>){
+                str += arr_0_9[<span class="hljs-built_in">number</span>];
+                <span class="hljs-built_in">number</span> -= <span class="hljs-built_in">number</span>;
+            }
+            <span class="hljs-keyword" style="color: rgb(204, 120, 50);">if</span>(<span class="hljs-built_in">number</span>&gt;=<span class="hljs-number" style="color: rgb(104, 151, 187);">10</span> &amp;&amp; <span class="hljs-built_in">number</span>&lt;<span class="hljs-number" style="color: rgb(104, 151, 187);">20</span>){
+                str += arr_10_19[<span class="hljs-built_in">number</span><span class="hljs-number" style="color: rgb(104, 151, 187);">-10</span>];
+                <span class="hljs-built_in">number</span> -= <span class="hljs-built_in">number</span>;
+            }
+            <span class="hljs-keyword" style="color: rgb(204, 120, 50);">if</span>(<span class="hljs-built_in">number</span>&gt;=<span class="hljs-number" style="color: rgb(104, 151, 187);">20</span> &amp;&amp; <span class="hljs-built_in">number</span>&lt;<span class="hljs-number" style="color: rgb(104, 151, 187);">100</span>){
+                str += arr_20_90[(<span class="hljs-built_in">number</span>-<span class="hljs-built_in">number</span>%<span class="hljs-number" style="color: rgb(104, 151, 187);">10</span>)/<span class="hljs-number" style="color: rgb(104, 151, 187);">10</span><span class="hljs-number" style="color: rgb(104, 151, 187);">-2</span>]+<span class="hljs-string" style="color: rgb(106, 135, 89);">' '</span>;
+                <span class="hljs-built_in">number</span> = <span class="hljs-built_in">number</span>%<span class="hljs-number" style="color: rgb(104, 151, 187);">10</span>;
+            }
+            <span class="hljs-keyword" style="color: rgb(204, 120, 50);">if</span>(<span class="hljs-built_in">number</span>&gt;=<span class="hljs-number" style="color: rgb(104, 151, 187);">100</span> &amp;&amp; <span class="hljs-built_in">number</span>&lt;<span class="hljs-number" style="color: rgb(104, 151, 187);">1000</span>){
+                str += arr_0_9[(<span class="hljs-built_in">number</span>-<span class="hljs-built_in">number</span>%<span class="hljs-number" style="color: rgb(104, 151, 187);">100</span>)/<span class="hljs-number" style="color: rgb(104, 151, 187);">100</span>] + <span class="hljs-string" style="color: rgb(106, 135, 89);">' '</span> + arr_pow_10[<span class="hljs-number" style="color: rgb(104, 151, 187);">0</span>] + <span class="hljs-string" style="color: rgb(106, 135, 89);">' '</span>;
+                <span class="hljs-built_in">number</span> = <span class="hljs-built_in">number</span>%<span class="hljs-number" style="color: rgb(104, 151, 187);">100</span>;
+            }
+            <span class="hljs-keyword" style="color: rgb(204, 120, 50);">if</span>(<span class="hljs-built_in">number</span>&gt;=<span class="hljs-number" style="color: rgb(104, 151, 187);">1000</span> &amp;&amp; <span class="hljs-built_in">number</span>&lt;<span class="hljs-number" style="color: rgb(104, 151, 187);">10000</span>){
+                str += arr_0_9[(<span class="hljs-built_in">number</span>-<span class="hljs-built_in">number</span>%<span class="hljs-number" style="color: rgb(104, 151, 187);">1000</span>)/<span class="hljs-number" style="color: rgb(104, 151, 187);">1000</span>] + <span class="hljs-string" style="color: rgb(106, 135, 89);">' '</span> + arr_pow_10[<span class="hljs-number" style="color: rgb(104, 151, 187);">1</span>] + <span class="hljs-string" style="color: rgb(106, 135, 89);">' '</span>;
+                <span class="hljs-built_in">number</span> = <span class="hljs-built_in">number</span>%<span class="hljs-number" style="color: rgb(104, 151, 187);">1000</span>;
+            }
+        }
+        str = str.trim();
+        <span class="hljs-keyword" style="color: rgb(204, 120, 50);">return</span> str;
+    }</pre>
+         </figure>
+
+     </article>
+
+    <footer>
+        <a href="https://github.com/Krivetka"><img src="icon/github_git_icon.png" alt="git_logo"></a>
+        <p>Ivan Kuliashov © 2021</p>
+        <a href="https://rs.school/js/"><img src="icon/rs_school_js.svg" alt="course_logo" id="course_logo"></a>
+    </footer>
+</body>
+</html>
