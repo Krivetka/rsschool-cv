@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
+
+
+body{
+    margin: auto;
+}
+
+
+header img{
+    width: 12vw;
+    height: 15vw;
+    margin: 2vw 6vw 1vw 25vw;
+    border-radius: 100px;
+    display: inline-block;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#name{
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Stick', sans-serif;
+    margin-top: 3vw;
+    line-height: 0.5;
+}
+header h1{
+    font-size: 4vw;
+
+}
+header h3{
+    font-size: 2vw;
+    color: white;
+    background-color: #2E4DA7;
+    padding: 6px 0 15px 7px;
+}
+header hr{
+    width: 75%;
+}
+
+hr{
+    width: 90%;
+    color: #2E4DA7;
+    background-color: #2E4DA7;
+    height: 1px;
+}
+
+
+aside{
+    display: inline-block;
+}
+aside div{
+     width: 18vw;
+     margin: 1vw 1vw 1vw 15vw;
+     padding: 4px;
+     font-size: 1.3vw;
+     border-radius: 10px;
+    font-family: 'Balsamiq Sans', cursive;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+ }
+aside h3{
+    font-size: 1.8vw;
+    margin: 0.5vw 1vw ;
+}
+aside ul{
+    margin-top: 0.5vw;
+}
+aside li{
+    margin-top: 1vw ;
+}
+article{
+    display: inline-block;
+    width: 50vw;
+    vertical-align: top;
+    margin: 1vw 0;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.5vw;
+}
+article p{
+ margin: 1vw;
+}
+#quote{
+    color: 	#FFFAFA;
+    font-size: 1.5vw;
+    margin: 1vw;
+    padding: 1vw;
+    border-radius: 5px;
+    background-color: #90a4de;
+}
+
+article ul{
+    margin: -0.5vw 0 1vw 1vw;
+}
+article li{
+    list-style-type: none;
+}
+article li:hover{
+    color: #90a4de;
+}
+article li:before {
+    content: "✔ ";
+}
+
+figure{
+    width: 45vw;
+    margin: 0 2vw;
+    font-size: 0.8vw;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    height: 90px;
+}
+footer img{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 10px 0 0 30px;
+}
+footer p{
+    display: inline-block;
+    margin-top: 40px;
+    vertical-align: top;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+}
+#course_logo{
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+    display: inline-block;
+    float: right;
+    margin: 8px 50px 0 0;
+}
