@@ -51,3 +51,11 @@ javascript
                  todo.innerHTML=displayMessage;
              });
          }
+##### Completed the QA engineer course. I was a participant of the HTP project school. I have mastered the course "Fundamentals of algorithmization and programming", "Fundamentals of databases and information Security".
+##### Education:
+* MSRL (2017-2019)
+* BSUIR (2019-2023)
+##### languages:
+1. ##### Russian - native
+2. ##### English - A2 
+3. ##### Polish - A1
