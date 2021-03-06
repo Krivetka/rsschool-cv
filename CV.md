@@ -1,2 +1,0 @@
-# Ivan Kuliashov
-___
