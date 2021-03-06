@@ -20,7 +20,7 @@ ___
 * Bootstrap
 * Yii
 
-javascript
+```javascript
     function displayMessages() {
              let displayMessage =``;
              todoList.forEach(function (item, i){
@@ -51,6 +51,7 @@ javascript
                  todo.innerHTML=displayMessage;
              });
          }
+```
 ##### Completed the QA engineer course. I was a participant of the HTP project school. I have mastered the course "Fundamentals of algorithmization and programming", "Fundamentals of databases and information Security".
 ##### Education:
 * MSRL (2017-2019)
