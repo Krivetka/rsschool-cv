@@ -140,7 +140,21 @@
         <span class="hljs-keyword" style="color: rgb(204, 120, 50);">return</span> str;
     }</pre>
          </figure>
-
+	 <p><b>SQL requests:</b></p>
+         <figure>
+<pre class="hljs" style="color: rgb(169, 183, 198); background: rgb(40, 43, 46); display: block; overflow-x: auto; padding: 0.5em;"><span class="hljs-keyword" style="color: rgb(204, 120, 50);"> SELECT</span> Objects.[Object cipher], Customer, [Object type],<span class="hljs-keyword" style="color: rgb(204, 120, 50);">Count</span>(Workers.[Object cipher])
+<span class="hljs-keyword" style="color: rgb(204, 120, 50);"> AS</span> [<span class="hljs-built_in">Number</span> of employees]
+<span class="hljs-keyword" style="color: rgb(204, 120, 50);"> FROM</span> Objects <span class="hljs-keyword" style="color: rgb(204, 120, 50);">INNER JOIN</span> Workers <span class="hljs-keyword" style="color: rgb(204, 120, 50);">ON</span> Objects.[Object cipher] = Workers.[Object cipher]
+<span class="hljs-keyword" style="color: rgb(204, 120, 50);"> GROUP BY</span> Objects.[Object cipher], Customer,[Object type]
+<span class="hljs-keyword" style="color: rgb(204, 120, 50);"> ORDER BY</span> Objects.[Object cipher]
+<span class="hljs-keyword" style="color: rgb(204, 120, 50);"> UPDATE</span> Objects
+<span class="hljs-keyword" style="color: rgb(204, 120, 50);"> SET</span> [Contract price] = [Contract price]*<span class="hljs-number" style="color: rgb(104, 151, 187);">1.2</span>
+<span class="hljs-keyword" style="color: rgb(204, 120, 50);"> WHERE</span> ([Object type]=<span class="hljs-string" style="color: rgb(106, 135, 89);">"office"</span>) ;
+<span class="hljs-keyword" style="color: rgb(204, 120, 50);"> DELETE</span>
+<span class="hljs-keyword" style="color: rgb(204, 120, 50);"> FROM</span> Workers
+<span class="hljs-keyword" style="color: rgb(204, 120, 50);"> WHERE</span>  ([Surname]=[Enter Your last name]);
+</pre>
+         </figure>
      </article>
 
     <footer>
